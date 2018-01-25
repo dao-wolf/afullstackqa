@@ -60,5 +60,8 @@ typings/
 # assets
 assets/
 
+# js
+js/*.min.*
+
 # other
 pouchdb-getting-started-todo/

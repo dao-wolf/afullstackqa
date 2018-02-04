@@ -1,11 +1,26 @@
+<!-- views/pages/index.ejs -->
+
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>afullstackqa.com</title>
-  </head>
-  <body>
-    <h1>Welcome</h1>
-    <p>My name is Alex and I'm a fullstack QA<p>
-  </body>
+<html lang="en">
+<head>
+    <% include ../partials/head %>
+</head>
+<body class="container">
+
+<header>
+    <% include ../partials/header %>
+</header>
+
+<main>
+    <div class="jumbotron">
+        <h1>Welcome</h1>
+        <p>My name is Alex and I'm a fullstack QA</p>
+    </div>
+</main>
+
+<footer>
+    <% include ../partials/footer %>
+</footer>
+
+</body>
 </html>

@@ -4,4 +4,4 @@ COPY package.json /app
 RUN npm install
 COPY . /app
 ENTRYPOINT ["npm", "run", "start"]
-EXPOSE 8081
+EXPOSE 80

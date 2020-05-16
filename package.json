@@ -8,6 +8,8 @@
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^14.0.1",
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
     "@typescript-eslint/eslint-plugin": "^2.33.0",
     "@typescript-eslint/parser": "^2.33.0",
     "eslint": "^7.0.0",
@@ -19,8 +21,8 @@
     "typescript": "^3.9.2"
   },
   "scripts": {
-    "dev": "parcel src/index.ts",
-    "build": "parcel build src/index.ts"
+    "dev": "parcel src/index.tsx",
+    "build": "parcel build src/index.tsx"
   },
   "dependencies": {
     "react": "^16.13.1",

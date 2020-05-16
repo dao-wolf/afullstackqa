@@ -1,0 +1,9 @@
+{
+  "name": "afullstackqa",
+  "version": "1.0.0",
+  "description": "afullstackqa.com - all things software engineering",
+  "main": "index.ts",
+  "repository": "git@github.com:opantsjoha/afullstackqa.git",
+  "author": "Oleg Pantsjoha <opantsjoha@gmail.com>",
+  "license": "MIT"
+}

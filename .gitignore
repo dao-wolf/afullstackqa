@@ -65,3 +65,10 @@ js/*.min.*
 
 # other
 pouchdb-getting-started-todo/
+
+# react output
+
+dist
+
+# parcel build cache
+.cache

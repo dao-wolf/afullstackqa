@@ -1,14 +1,13 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { render } from 'react-dom';
 import './App.css';
+import { Main } from './Main';
 
-class App extends React.Component {
+class App extends Component {
   render() {
     return (
       <React.StrictMode>
-        <div>
-          <header>This is a test</header>
-        </div>
+        <Main />
       </React.StrictMode>
     );
   }
